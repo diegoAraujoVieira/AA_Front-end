@@ -1,0 +1,166 @@
+/* formatando o documento */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, white, #dbcaba);
+}
+
+/* estilos das barras de navegação */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    background-color: #dbcaba;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #534741;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+/* centralizando e definindo margens superiores para as sections */
+section {
+    margin: auto;
+    width: 50%;
+    margin-top: 5vh;
+}
+
+/* Definindo fonte e demais estilos para o elemento h1 */
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #534741;
+}
+
+/* estilos dos títulos secundários */
+h2, h3 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+/* estilos dos parágrafos */
+p {
+    margin-top: 1vh;
+    text-align: justify;
+    font-size: larger;
+}
+
+/* definindo margem superior para imagens */
+img {
+    margin-top: 5vh;
+}
+
+/* estilos da barra de navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #6f4f32;
+    padding: 2vh;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 0 15px 0 15px;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* estilos do banner principal da página*/
+#banner-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+#banner-main img {
+    margin-top: 30px;
+}
+
+/* estilos seção sobre */
+.container-img-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre img {
+    border: 10px solid #6f4f32;
+}
+
+/* estilos da seção espaço */
+.container-espaço {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-top: 5vh;
+}
+
+.card {
+    margin: 0 20px 0 20px;
+}
+
+.container-espaço img {
+    margin: 0;
+ }
+
+/* estilos do cardápio */
+#cardapio h3 {
+    background-color: #6f4f32;
+    width: 50%;
+    padding: 2vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.container-cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardapio p {
+    text-align: center;
+}
+
+/* estilos seção endereço */
+#endereco p {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+}
+
+/* estilos do footer */
+footer {
+    background-color: #6f4f32;
+    padding: 5vh;
+    margin-top: 5vh;
+}
+
+footer h4, footer p {
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: small;
+}
